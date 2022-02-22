@@ -25,7 +25,7 @@ if response.status_code == 200:
 else:
     print("An error occured.")
 ```
-The Output
+The output. Temperature is in C. 
 
     What city would you like to retrieve? Seattle
     You can expect these conditions:  overcast clouds
