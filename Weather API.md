@@ -1,14 +1,15 @@
+Import the necessary Packages
 ```python
 import requests
 ```
 
-
+Insert your own API here.
 ```python
 API_KEY = "insert your API key here"
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 ```
 
-
+Create a call function to retrieve a specific city using the url and API key.
 ```python
 city = input("What city would you like to retrieve? ")
 request_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
@@ -24,6 +25,7 @@ if response.status_code == 200:
 else:
     print("An error occured.")
 ```
+The Output
 
     What city would you like to retrieve? Seattle
     You can expect these conditions:  overcast clouds
